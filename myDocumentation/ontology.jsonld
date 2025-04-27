@@ -1,0 +1,649 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Events and attractions in Spanish cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Events and attractions in Spanish cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Attraction is a place to visit in a city"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The attraction's identification number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AttractionId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction_CastellSaragossa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue" : [ {
+    "@language" : "en",
+    "@value" : "3.7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The type of transportation that can be used in those cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AverageCost"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The average price of the restaurant per person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AveragePrice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City_Saragossa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The company that manages that transportation Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The type of cuisine offered by the restaurant, which can be: Andalusian, Italian, Japanese, Mediterranean, or Mexican"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CuisineType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the event is held"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Events held in cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The event's identification number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event_CongresCadis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotels available to visitors and users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The hotel's identification number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HotelId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel_VistaSevilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue" : [ {
+    "@language" : "en",
+    "@value" : "4.7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The name of the restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The price of a hotel night"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PriceNight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurants available to visitors and users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The restaurant's identification number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RestaurantId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The number of stars the hotel has, which can be from 1 to 5 stars"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stars"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The identification number of that transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TransportId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport_MetroMadrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The type of transport the user can use, which can be: bus, public bicycle, metro, taxi, or tram."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The type of hotel, which can be: luxury, business, beach, rural, or tourist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TypeHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The rating given to that restaurant in the form of a score from 1.0 to 5.0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The value of the attraction, or the hotel, or the restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The value of the hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "valueHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The value of the restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "valueRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  }, {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#backwardCompatibleWith"
+  } ]
+} ]

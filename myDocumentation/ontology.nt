@@ -1,0 +1,449 @@
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26> <http://www.w3.org/2000/01/rdf-schema#comment> "Events and attractions in Spanish cities"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26> <http://www.w3.org/2000/01/rdf-schema#label> "Events and attractions in Spanish cities"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the hotel"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel> <http://www.w3.org/2000/01/rdf-schema#label> "valueHotel"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the restaurant"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "valueRestaurant"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the attraction, or the hotel, or the restaurant"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "An Attraction is a place to visit in a city"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Attraction" .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId> <http://www.w3.org/2000/01/rdf-schema#comment> "The attraction's identification number"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId> <http://www.w3.org/2000/01/rdf-schema#label> "AttractionId"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of transportation that can be used in those cities"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost> <http://www.w3.org/2000/01/rdf-schema#label> "AverageCost"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The average price of the restaurant per person"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice> <http://www.w3.org/2000/01/rdf-schema#label> "AveragePrice"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company> <http://www.w3.org/2000/01/rdf-schema#comment> "The company that manages that transportation Transport"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company> <http://www.w3.org/2000/01/rdf-schema#label> "Company"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of cuisine offered by the restaurant, which can be: Andalusian, Italian, Japanese, Mediterranean, or Mexican"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType> <http://www.w3.org/2000/01/rdf-schema#label> "CuisineType"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the event is held"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Events held in cities"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Event"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId> <http://www.w3.org/2000/01/rdf-schema#comment> "The event's identification number"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId> <http://www.w3.org/2000/01/rdf-schema#label> "EventId"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid6 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotels available to visitors and users"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Hotel"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId> <http://www.w3.org/2000/01/rdf-schema#comment> "The hotel's identification number"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId> <http://www.w3.org/2000/01/rdf-schema#label> "HotelId"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the restaurant"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight> <http://www.w3.org/2000/01/rdf-schema#comment> "The price of a hotel night"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight> <http://www.w3.org/2000/01/rdf-schema#label> "PriceNight"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurants available to visitors and users"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId> <http://www.w3.org/2000/01/rdf-schema#comment> "The restaurant's identification number"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId> <http://www.w3.org/2000/01/rdf-schema#label> "RestaurantId"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of stars the hotel has, which can be from 1 to 5 stars"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars> <http://www.w3.org/2000/01/rdf-schema#label> "Stars"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId> <http://www.w3.org/2000/01/rdf-schema#comment> "The identification number of that transport."@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId> <http://www.w3.org/2000/01/rdf-schema#label> "TransportId"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of transport the user can use, which can be: bus, public bicycle, metro, taxi, or tram."@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of hotel, which can be: luxury, business, beach, rural, or tourist"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel> <http://www.w3.org/2000/01/rdf-schema#label> "TypeHotel"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2002/07/owl#rational> .
+_:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#comment> "The rating given to that restaurant in the form of a score from 1.0 to 5.0"@en .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction_CastellSaragossa
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction_CastellSaragossa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction_CastellSaragossa> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> "3.7"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City_Saragossa
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City_Saragossa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event_CongresCadis
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event_CongresCadis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel_VistaSevilla
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel_VistaSevilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel_VistaSevilla> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue> "4.7"@en .
+# 
+# http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport_MetroMadrid
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport_MetroMadrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid8 <http://www.w3.org/2002/07/owl#members> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid15 <http://www.w3.org/2002/07/owl#members> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid21 <http://www.w3.org/2002/07/owl#members> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid27 <http://www.w3.org/2002/07/owl#members> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid34 <http://www.w3.org/2002/07/owl#members> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid40 <http://www.w3.org/2002/07/owl#members> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid46 <http://www.w3.org/2002/07/owl#members> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid54 <http://www.w3.org/2002/07/owl#members> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

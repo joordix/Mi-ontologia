@@ -1,0 +1,393 @@
+@prefix : <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#> .
+
+<http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26> rdf:type owl:Ontology ;
+                                                                           rdfs:comment "Events and attractions in Spanish cities"@en ;
+                                                                           rdfs:label "Events and attractions in Spanish cities"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty ;
+            rdfs:subPropertyOf rdfs:comment ,
+                               rdfs:isDefinedBy ,
+                               owl:backwardCompatibleWith .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueHotel
+:valueHotel rdf:type owl:ObjectProperty ;
+            rdfs:domain :Value ;
+            rdfs:range :Hotel ;
+            rdfs:comment "The value of the hotel"@en ;
+            rdfs:label "valueHotel"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#valueRestaurant
+:valueRestaurant rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Value ;
+                 rdfs:range :Restaurant ;
+                 rdfs:comment "The value of the restaurant"@en ;
+                 rdfs:label "valueRestaurant"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#hasValue
+:hasValue rdf:type owl:DatatypeProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Attraction
+                                      :Hotel
+                                      :Restaurant
+                                    )
+                      ] ;
+          rdfs:range xsd:float ;
+          rdfs:comment "The value of the attraction, or the hotel, or the restaurant"@en ;
+          rdfs:label "Value"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction
+:Attraction rdf:type owl:Class ;
+            rdfs:comment "An Attraction is a place to visit in a city"@en ;
+            rdfs:label "Attraction"@en ;
+            rdfs:sameAs "http://dbpedia.org/resource/Attraction" .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AttractionId
+:AttractionId rdf:type owl:Class ;
+              rdfs:subClassOf :Attraction ;
+              rdfs:comment "The attraction's identification number"@en ;
+              rdfs:label "AttractionId"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AverageCost
+:AverageCost rdf:type owl:Class ;
+             rdfs:subClassOf :Transport ;
+             rdfs:comment "The type of transportation that can be used in those cities"@en ;
+             rdfs:label "AverageCost"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#AveragePrice
+:AveragePrice rdf:type owl:Class ;
+              rdfs:subClassOf :Restaurant ;
+              rdfs:comment "The average price of the restaurant per person"@en ;
+              rdfs:label "AveragePrice"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Beach
+:Beach rdf:type owl:Class ;
+       rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :Attraction ,
+                      :Event ,
+                      :Hotel ,
+                      :Restaurant ,
+                      :Transport .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CityId
+:CityId rdf:type owl:Class ;
+        rdfs:subClassOf :City .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Company
+:Company rdf:type owl:Class ;
+         rdfs:subClassOf :Transport ;
+         rdfs:comment "The company that manages that transportation Transport"@en ;
+         rdfs:label "Company"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#CuisineType
+:CuisineType rdf:type owl:Class ;
+             rdfs:subClassOf :Restaurant ;
+             rdfs:comment "The type of cuisine offered by the restaurant, which can be: Andalusian, Italian, Japanese, Mediterranean, or Mexican"@en ;
+             rdfs:label "CuisineType"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Cultural
+:Cultural rdf:type owl:Class ;
+          rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Date
+:Date rdf:type owl:Class ;
+      rdfs:subClassOf :Event ;
+      rdfs:comment "The date the event is held"@en ;
+      rdfs:label "Date"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event
+:Event rdf:type owl:Class ;
+       rdfs:comment "Events held in cities"@en ;
+       rdfs:label "Event"@en ;
+       rdfs:sameAs "http://dbpedia.org/resource/Event"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#EventId
+:EventId rdf:type owl:Class ;
+         rdfs:subClassOf :Event ;
+         rdfs:comment "The event's identification number"@en ;
+         rdfs:label "EventId"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasValue ;
+                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:float
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasValue ;
+                         owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:float
+                       ] ;
+       rdfs:comment "Hotels available to visitors and users"@en ;
+       rdfs:label "Hotel"@en ;
+       rdfs:sameAs "http://dbpedia.org/resource/Hotel"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#HotelId
+:HotelId rdf:type owl:Class ;
+         rdfs:subClassOf :Hotel ;
+         rdfs:comment "The hotel's identification number"@en ;
+         rdfs:label "HotelId"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf :City .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Monument
+:Monument rdf:type owl:Class ;
+          rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Museum
+:Museum rdf:type owl:Class ;
+        rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Name
+:Name rdf:type owl:Class ;
+      rdfs:subClassOf :Attraction ,
+                      :City ,
+                      :Event ,
+                      :Hotel ,
+                      :Restaurant ;
+      rdfs:comment "The name of the restaurant"@en ;
+      rdfs:label "Name"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Park
+:Park rdf:type owl:Class ;
+      rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#PriceNight
+:PriceNight rdf:type owl:Class ;
+            rdfs:subClassOf :Hotel ;
+            rdfs:comment "The price of a hotel night"@en ;
+            rdfs:label "PriceNight"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:comment "Restaurants available to visitors and users"@en ;
+            rdfs:label "Restaurant"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#RestaurantId
+:RestaurantId rdf:type owl:Class ;
+              rdfs:subClassOf :Restaurant ;
+              rdfs:comment "The restaurant's identification number"@en ;
+              rdfs:label "RestaurantId"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Stars
+:Stars rdf:type owl:Class ;
+       rdfs:subClassOf :Hotel ;
+       rdfs:comment "The number of stars the hotel has, which can be from 1 to 5 stars"@en ;
+       rdfs:label "Stars"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport
+:Transport rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TransportId
+:TransportId rdf:type owl:Class ;
+             rdfs:subClassOf :Transport ;
+             rdfs:comment "The identification number of that transport."@en ;
+             rdfs:label "TransportId"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Type
+:Type rdf:type owl:Class ;
+      rdfs:subClassOf :Attraction ,
+                      :Event ,
+                      :Transport ;
+      rdfs:comment "The type of transport the user can use, which can be: bus, public bicycle, metro, taxi, or tram."@en ;
+      rdfs:label "Type"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#TypeHotel
+:TypeHotel rdf:type owl:Class ;
+           rdfs:subClassOf :Hotel ;
+           rdfs:comment "The type of hotel, which can be: luxury, business, beach, rural, or tourist"@en ;
+           rdfs:label "TypeHotel"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Value
+:Value rdf:type owl:Class ;
+       rdfs:subClassOf :Attraction ,
+                       :Hotel ,
+                       :Restaurant ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasValue ;
+                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange owl:rational
+                       ] ;
+       rdfs:comment "The rating given to that restaurant in the form of a score from 1.0 to 5.0"@en ;
+       rdfs:label "Value"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Attraction_CastellSaragossa
+:Attraction_CastellSaragossa rdf:type owl:NamedIndividual ;
+                             :hasValue "3.7"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#City_Saragossa
+:City_Saragossa rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Event_CongresCadis
+:Event_CongresCadis rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Hotel_VistaSevilla
+:Hotel_VistaSevilla rdf:type owl:NamedIndividual ;
+                    :hasValue "4.7"@en .
+
+
+###  http://www.semanticweb.org/jordi/ontologies/2025/3/untitled-ontology-26#Transport_MetroMadrid
+:Transport_MetroMadrid rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Attraction
+                :City
+                :Event
+                :Hotel
+                :Restaurant
+                :Transport
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AttractionId
+                :City
+                :Name
+                :Type
+                :Value
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AverageCost
+                :City
+                :Company
+                :TransportId
+                :Type
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AveragePrice
+                :City
+                :CuisineType
+                :Name
+                :RestaurantId
+                :Value
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Beach
+                :Cultural
+                :Monument
+                :Museum
+                :Park
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :City
+                :Date
+                :EventId
+                :Name
+                :Type
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :City
+                :HotelId
+                :Name
+                :PriceNight
+                :Stars
+                :TypeHotel
+                :Value
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CityId
+                :Location
+                :Name
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
